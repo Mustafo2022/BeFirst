@@ -1,0 +1,39 @@
+{% load static %}
+<div class="navbar">
+    <div class="top">
+        <div class="language">
+            <img src="{% static 'main/images/russia.png' %}" width="32" height="25" alt="">
+        </div>
+        <div class="border"></div>
+        <div class="login"><a href="">ВХОД</a></div>
+        <div class="border2"></div>
+        <div class="register"><a href="">РЕГИСТРАЦИЯ</a></div>
+    </div>
+    <div class="main">
+        <div class="logo">
+            <img src="{% static 'main/images/log-0 2.png' %}" alt>
+        </div>
+        <div class="border"></div>
+        <div class="vector">
+            <a href=""><img src="{% static 'main/images/Vector.png' %}" alt=""></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="main {% if request.path == '/' %}active{% endif %}"><a href="">Главная</a></li>
+                <li class="jobs {% if request.path == '/contests/' %}active{% endif %}"><a href="{% url 'contests' %}">Работы</a></li>
+                <li class="rule"><a href="">Правило</a></li>
+                <li class="results"><a href="">Результаты</a></li>
+                <li class="contest"><a href="">Конкурс</a></li>
+                <li class="experts"><a href="">Эксперты</a></li>
+                <li class="about"><a href="">О нас</a></li>
+                <li class="account"><a href="">Личный кабинет</a></li>
+                <li class="dots">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                         class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

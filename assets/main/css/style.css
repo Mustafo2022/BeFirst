@@ -1,0 +1,595 @@
+html::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.content {
+    margin-top: 19px;
+    background: url('../images/88191515211642 1.png');
+    width: 1920px;
+    height: 914px;
+    left: 0;
+    margin-bottom: -18.5px;
+
+}
+
+.content .main-bg image {
+    position: absolute;
+}
+
+.content .main-txt {
+    width: 824px;
+    height: 274px;
+    margin-left: 481px;
+    padding-top: 77px;
+    margin-bottom: 54px;
+
+    font-family: 'Baloo 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 113.7%;
+    /* or 80px */
+
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+}
+
+.content .logo {
+    width: 261px;
+    height: 295px;
+    margin-left: 484px;
+    margin-top: 124px;
+
+}
+
+.content .main-kids {
+    width: 618px;
+    height: 842px;
+    margin-left: 958px;
+    margin-top: -621px;
+}
+
+
+/* CONTESTS */
+
+.contests {
+    width: 100%;
+    height: 2500px;
+    margin-bottom: -190px;
+    margin-top: 0;
+    z-index: -1;
+    background: url("../images/ELEMENTLAR.svg") no-repeat;
+}
+
+.contests .heading {
+    padding-top: 20px;
+}
+
+.contests .header {
+    width: 1143px;
+    height: 419px;
+    margin-left: calc(50% - 1143px / 2);
+    padding-top: calc(50% - 941px);
+    background: url("../images/image 5.svg");
+}
+
+.contests .header .title {
+    width: 441px;
+    height: 99px;
+    padding-left: 93px;
+    padding-top: 71px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 112px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contests .header .mini-txt {
+    width: 294px;
+    height: 151px;
+    padding-left: 98px;
+    padding-top: 80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.contests .cards {
+    margin-left: 356px;
+}
+
+.contests .cards .card-red {
+    width: 359px;
+    height: 366px;
+    margin-left: 33px;
+    margin-top: 35px;
+
+    background: #ED6059;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+
+.contests .cards .card-red image {
+    width: 359px;
+    height: 200px;
+
+    border-radius: 12px;
+}
+
+.contests .cards .card-red .title {
+    width: 151px;
+    height: 25px;
+    margin-left: 16px;
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-red .text {
+    width: 319px;
+    height: 58px;
+    margin-left: 16px;
+    margin-top: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-red .more {
+    width: 150px;
+    height: 30px;
+    margin-left: 16px;
+    margin-top: 22px;
+
+    background: #F5C24D;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: 0;
+}
+
+
+.contests .cards .card-yellow {
+    width: 359px;
+    height: 366px;
+    margin-left: 425px;
+    margin-top: -365px;
+
+    background: #F5C24D;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+
+.contests .cards .card-yellow image {
+    width: 359px;
+    height: 200px;
+
+    border-radius: 12px;
+}
+
+.contests .cards .card-yellow .title {
+    width: 151px;
+    height: 25px;
+    margin-left: 16px;
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-yellow .text {
+    width: 319px;
+    height: 58px;
+    margin-left: 16px;
+    margin-top: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-yellow .more {
+    width: 150px;
+    height: 30px;
+    margin-left: 16px;
+    margin-top: 22px;
+
+    background: #ED6059;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: 0;
+}
+
+
+.contests .cards .card-red2 {
+    width: 359px;
+    height: 366px;
+    margin-left: 817px;
+    margin-top: -365px;
+
+    background: #ED6059;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+
+.contests .cards .card-red2 image {
+    width: 359px;
+    height: 200px;
+
+    border-radius: 12px;
+}
+
+.contests .cards .card-red2 .title {
+    width: 151px;
+    height: 25px;
+    margin-left: 16px;
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-red2 .text {
+    width: 319px;
+    height: 58px;
+    margin-left: 16px;
+    margin-top: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-red2 .more {
+    width: 150px;
+    height: 30px;
+    margin-left: 16px;
+    margin-top: 22px;
+
+    background: #F5C24D;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: 0;
+}
+
+
+.contests .cards .card-yellow2 {
+    width: 359px;
+    height: 366px;
+    margin-left: 33px;
+    margin-top: 35px;
+
+    background: #F5C24D;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+
+.contests .cards .card-yellow2 image {
+    width: 359px;
+    height: 200px;
+
+    border-radius: 12px;
+}
+
+.contests .cards .card-yellow2 .title {
+    width: 151px;
+    height: 25px;
+    margin-left: 16px;
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-yellow2 .text {
+    width: 319px;
+    height: 58px;
+    margin-left: 16px;
+    margin-top: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-yellow2 .more {
+    width: 150px;
+    height: 30px;
+    margin-left: 16px;
+    margin-top: 22px;
+
+    background: #ED6059;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: 0;
+}
+
+
+.contests .cards .card-red3 {
+    width: 359px;
+    height: 366px;
+    margin-left: 425px;
+    margin-top: -365px;
+
+    background: #ED6059;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+
+.contests .cards .card-red3 image {
+    width: 359px;
+    height: 200px;
+
+    border-radius: 12px;
+}
+
+.contests .cards .card-red3 .title {
+    width: 151px;
+    height: 25px;
+    margin-left: 16px;
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-red3 .text {
+    width: 319px;
+    height: 58px;
+    margin-left: 16px;
+    margin-top: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-red3 .more {
+    width: 150px;
+    height: 30px;
+    margin-left: 16px;
+    margin-top: 22px;
+
+    background: #F5C24D;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: 0;
+}
+
+
+.contests .cards .card-yellow3 {
+    position: absolute;
+    width: 359px;
+    height: 366px;
+    margin-left: 817px;
+    margin-top: -365px;
+
+    background: #F5C24D;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+
+.contests .cards .card-yellow3 image {
+    width: 359px;
+    height: 200px;
+
+    border-radius: 12px;
+}
+
+.contests .cards .card-yellow3 .title {
+    width: 151px;
+    height: 25px;
+    margin-left: 16px;
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-yellow3 .text {
+    width: 319px;
+    height: 58px;
+    margin-left: 16px;
+    margin-top: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.contests .cards .card-yellow3 .more {
+    width: 150px;
+    height: 30px;
+    margin-left: 16px;
+    margin-top: 22px;
+
+    background: #ED6059;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: 0;
+}
+
+.contests .pagination {
+    margin-left: 715px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 125px;
+}
+
+.contests .pagination a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contests .pagination .previous {
+    width: 31px;
+    height: 31px;
+    left: 715px;
+    margin-top: 30px;
+
+    background: #ED6059;
+}
+
+.contests .pagination .previous .arrow {
+    width: 25px;
+    height: 25px;
+    margin-left: 1px;
+    margin-top: 3px !important;
+
+    background: url("../images/left arrow.png") no-repeat;
+    background-size: contain;
+}
+
+.contests .pagination .main {
+    width: 430px;
+    height: 31px;
+    left: 715px;
+    margin-top: 30px;
+
+    background: #F5C24D;
+}
+
+.contests .pagination .main .border {
+    width: 2px;
+    height: 29px;
+    margin-left: 2px;
+    margin-top: 1px;
+    margin-bottom: -30px;
+
+    background: #5C5C5C;
+    border-radius: 5px;
+}
+
+.contests .pagination .main .border2 {
+    width: 2px;
+    height: 29px;
+    margin-left: 425px;
+    margin-top: -30px;
+    top: 2215px;
+
+    background: #5C5C5C;
+    border-radius: 5px;
+
+}
+
+.contests .pagination .main a {
+    width: 22px;
+    height: 30px;
+    left: 768px;
+    margin-left: 30px;
+
+    font-family: 'AcadEref';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    align-items: center;
+
+    color: #000000;
+}
+
+.contests .pagination .main a:last-child {
+    margin-left: -100px !important;
+}
+
+.contests .pagination .next {
+    width: 31px;
+    height: 31px;
+    left: 1177px;
+    top: 2214px;
+    margin-top: 30px;
+
+    background: #ED6059;
+}
+
+.contests .pagination .next .arrow {
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    margin-top: 3px !important;
+
+    background: url("../images/right arrow.png") no-repeat;
+    background-size: contain;
+}
