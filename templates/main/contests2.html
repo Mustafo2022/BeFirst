@@ -1,0 +1,77 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+
+    {% load static %}
+
+    <div class="contests2">
+
+        <div class="header">
+            <div class="title">УчастИЕ В конкурсЕ</div>
+            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            </div>
+            <div class="more"><span>подробное</span></div>
+            <img src="{% static 'main/images/D3o017aWwAAkw_G 1.png' %}" alt="" class="image">
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="title">АНКЕТА</div>
+                <div class="txt">пожалуйста, заполните эту форму, чтобы создать учетную запись</div>
+                <div class="hr"></div>
+                <input type="text" name="name" id="name" placeholder="Имя:" class="name">
+                <input type="text" name="name" id="name" placeholder="Фамилия:" class="last_name">
+                <label for="age">Лет:</label>
+                <select name="age" id="age" class="age">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+                <label for="category">Категория конкурс:</label>
+                <select name="category" id="category" class="category">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+
+                <label for="city">Категория Город:</label>
+                <select name="city" id="city" class="city">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+
+                <input type="text" class="phone">
+                <div class="display-f">
+                      <label for="female" class="female-image"><img src="{% static 'main/images/image 17.png' %}"
+                                                                    alt=""></label>
+                      <input type="radio" id="female" name="gender" value="female" class="female">
+                      <label for="male" class="male-image"><img src="{% static 'main/images/childicon 1.png' %}" alt=""></label>
+                      <input type="radio" id="male" name="gender" value="male" class="male">
+                </div>
+
+                <textarea id="w3review" name="w3review" rows="4" cols="50" class="msg" placeholder="Ваш коммент...">
+
+                </textarea>
+                <div class="display-f">
+                    <input type="checkbox" name="remember" id="remember" class="remember">
+                    <label for="remember" class="remember2">Запомнить</label>
+                </div>
+                <button type="submit" class="ok"><span>OK</span></button>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

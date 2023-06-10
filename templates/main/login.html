@@ -1,0 +1,34 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+
+    {% load static %}
+
+    <div class="login">
+        <div class="header">
+            <div class="title">ЛИЧНЫЙ КАБИНЕТ</div>
+        </div>
+        <div class="main">
+            <form action="">
+                <label for="email" class="email">Логин <span>(E-mail)</span></label>
+                <input type="text" name="email" id="email" class="email2">
+                <label for="pass" class="pass">
+                    Пароль</label>
+                <input type="text" name="pass" id="pass" class="pass2">
+                <label for="remember" class="remember">Запомнить</label>
+                <input type="checkbox" name="remember" id="remember" class="remember2">
+
+                <a href="{% url 'register' %}" class="forgot">забыли пароль</a><br>
+                <button class="submit"><span>ВОЙТИ</span></button>
+            </form>
+            <div class="soc">
+                <div class="title">войдите через аккаунт социальной сети</div>
+                <div class="border"></div>
+                <div class="google"></div>
+                <div class="facebook"></div>
+                <div class="instagram"></div>
+                <div class="telegram"></div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+
+    {% load static %}
+    <div class="login">
+        <div class="header">
+            <div class="title">ЛИЧНЫЙ КАБИНЕТ</div>
+        </div>
+        <div class="register">
+            <div class="main">
+                <div class="title">Личные данные</div>
+                <div class="image"><span>ФОТО</span></div>
+                <label for="img" class="img">Загрузить фото</label>
+                <input type="file" name="img" id="img" hidden>
+                <div class="elements">
+                    <input type="text" name="" id="" class="name" placeholder="Ваше имя">
+                    <input type="text" name="" id="" class="lastname" placeholder="Ваше фамилия">
+                    <input type="tel" name="" id="" class="number" placeholder="Ваше номер телефона "><br>
+                    <input type="email" name="" id="" class="mail" placeholder="Ваше Е-mail">
+                </div>
+
+                <input type="text" name="date" id="date" class="date">
+                <input type="password" name="" id="" class="pass" placeholder="Ваше пароль">
+                <input type="text" name="" id="" class="address" placeholder="Ваше адрес">
+                <div class="border"></div>
+                <input type="checkbox" name="check" id="" class="check">
+                <div class="rember">
+                    <label for="check" class="remember">Хочу&nbsp;получать&nbsp;письма&nbsp;с&nbsp;новостями&nbsp;на
+                        электронный&nbsp;адрес</label>
+                </div>
+                <button class="subemit"><span>САХРАНИТЬ</span></button>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
