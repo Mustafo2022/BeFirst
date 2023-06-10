@@ -495,7 +495,7 @@ html::-webkit-scrollbar {
     margin-left: 715px;
     display: flex;
     margin-top: 30px;
-    margin-bottom: 125px;
+    margin-bottom: 0;
 }
 
 .contests .pagination a {
@@ -529,6 +529,17 @@ html::-webkit-scrollbar {
     margin-top: 30px;
 
     background: #F5C24D;
+}
+
+.contests .pagination .main .active {
+    width: 31px;
+    height: 31px;
+    left: 810px;
+    top: 1721px;
+    padding: 1px 9px;
+
+    background: #ED6059;
+    border-radius: 5px;
 }
 
 .contests .pagination .main .border {
@@ -593,3 +604,1613 @@ html::-webkit-scrollbar {
     background: url("../images/right arrow.png") no-repeat;
     background-size: contain;
 }
+
+.submit button {
+    width: 261px;
+    height: 73px;
+    margin-left: 1271px;
+    margin-top: 50px;
+    margin-bottom: 28px;
+    cursor: pointer;
+
+    border: 0;
+    background: #ED6059;
+    box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+
+.submit button a {
+    width: 232px;
+    height: 24px;
+    margin-left: 53px;
+    margin-top: -7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* contests 2 */
+
+
+.contests2 {
+    width: 100%;
+    height: 1600px;
+    left: -137px;
+    top: 198px;
+    background: url("../images/ELEMENTLAR.png") no-repeat;
+    margin-bottom: -30px;
+}
+
+.contests2 .header {
+    width: 1142px;
+    height: 447px;
+    margin-left: 389px;
+    margin-top: 19px;
+
+    background: #FFF8A7;
+}
+
+.contests2 .header .title {
+    width: 1000px;
+    height: 110px;
+    margin-left: 95px;
+    padding-top: 71px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 112px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.contests2 .header .text {
+    width: 730px;
+    height: 38px;
+    margin-left: 95px;
+    margin-top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.contests2 .header .image {
+    width: 492px;
+    height: 373px;
+    margin-left: 650px;
+    margin-top: -137px;
+    position: absolute;
+}
+
+.contests2 .header .more {
+    position: absolute;
+    width: 163px;
+    height: 31px;
+    margin-left: 98px;
+    margin-top: 60px;
+
+    background: #6495C2;
+    box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.contests2 .header .more span {
+    position: absolute;
+    width: 105px;
+    height: 17px;
+    margin-left: 30px;
+    margin-top: 6px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.contests2 .form {
+    width: 1143px;
+    height: 1119px;
+    margin-left: 389px;
+    margin-top: -27px;
+
+    background: #F5C24D;
+    opacity: 0.8;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.59);
+    border-radius: 27px;
+}
+
+.contests2 .form .title {
+    width: 177px;
+    height: 61px;
+    margin-left: 100px;
+    padding-top: 14px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+
+    color: #000000;
+}
+
+.contests2 .form .txt {
+    width: 641px;
+    height: 25px;
+    margin-left: 100px;
+    margin-top: 5px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+.contests2 .form .hr {
+    width: 646px;
+    height: 0;
+    margin-left: 100px;
+    margin-top: 22px;
+
+    opacity: 0.6;
+    border: 1px solid #000000;
+}
+
+.contests2 .form .name {
+    width: 457px;
+    height: 37px;
+    margin-left: 98px;
+    margin-top: 28px;
+    border: 0;
+
+    background: #EAE9EF;
+    border-radius: 4px;
+}
+
+.contests2 .form .name::placeholder {
+    width: 58px;
+    height: 20px;
+    padding-left: 21px;
+    padding-top: 14px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+.contests2 .form .last_name {
+    width: 457px;
+    height: 37px;
+    margin-left: 33px;
+    top: 738px;
+    border: 0;
+
+    background: #EAE9EF;
+    border-radius: 4px;
+}
+
+.contests2 .form .last_name::placeholder {
+    width: 134px;
+    height: 20px;
+    padding-left: 24px;
+    padding-top: 14px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+.contests2 .form .age {
+    width: 947px;
+    height: 37px;
+    margin-left: 98px;
+    margin-top: 39px;
+    border: 0;
+
+    background: #EAE9EF;
+    border-radius: 4px;
+}
+
+.contests2 .form .category {
+    width: 947px;
+    height: 37px;
+    margin-left: 98px;
+    margin-top: 31px;
+    border: 0;
+
+    background: #EAE9EF;
+    border-radius: 4px;
+}
+
+.contests2 .form .city {
+    width: 945px;
+    height: 37px;
+    margin-left: 98px;
+    margin-top: 31px;
+    border: 0;
+
+    background: #EAE9EF;
+    border-radius: 4px;
+}
+
+.contests2 .form .phone {
+    width: 945px;
+    height: 37px;
+    margin-left: 98px;
+    margin-top: 41px;
+    border: 0;
+
+    background: #EAE9EF;
+    border-radius: 4px;
+}
+
+.contests2 .form .display-f {
+    display: flex;
+}
+
+.contests2 .form .female-image {
+    width: 56px;
+    height: 57px;
+    margin-left: 90px;
+    margin-top: 21px;
+
+    opacity: 0.8;
+}
+
+.contests2 .form .female {
+    width: 25px;
+    height: 29px;
+    margin-left: -44px;
+    margin-top: 96px;
+
+    opacity: 0.6;
+    border-radius: 26px;
+}
+
+.contests2 .form .male-image {
+    width: 57px;
+    height: 65px;
+    margin-left: 43px;
+    margin-top: 17px;
+
+    opacity: 0.8;
+}
+
+.contests2 .form .male {
+    width: 25px;
+    height: 26px;
+    margin-left: -47px;
+    margin-top: 96px;
+
+    opacity: 0.6;
+}
+
+.contests2 .form .msg {
+    width: 947px;
+    height: 252px;
+    margin-left: 98px;
+    margin-top: 17px;
+    border: 0;
+
+    background: #EAE9EF;
+    border-radius: 8px;
+}
+
+.contests2 .form .remember {
+    box-sizing: border-box;
+    width: 13px;
+    height: 12px;
+    margin-left: 98px;
+    margin-top: 13px;
+
+    opacity: 0.7;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 1px;
+}
+
+.contests2 .form .remember2 {
+    width: 61px;
+    height: 14px;
+    margin-left: 14px;
+    margin-top: 10px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+.contests2 .form .ok {
+    width: 163px;
+    height: 38px;
+    margin-left: 98px;
+    margin-top: 14px;
+    border: 0;
+
+    background: #2DF57D;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.contests2 .form .ok span {
+    width: 22px;
+    height: 25px;
+    left: 558px;
+    top: 1611px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+/* JOBS */
+
+
+.jobs {
+    width: 100%;
+    height: 1700px;
+    margin-bottom: -100px;
+    background: url("../images/ELEMENTLAR.png") no-repeat;
+}
+
+.jobs .header {
+    width: 1143px;
+    height: 419px;
+    margin-left: 389px;
+    margin-top: 19px;
+
+    background: url('../images/1621637703_4-phonoteka_org-p-fon-dlya-obyavleniya-konkursa-risunkov-4.png');
+}
+
+.jobs .header .title {
+    width: 375px;
+    height: 110px;
+    margin-left: 92px;
+    padding-top: 71px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 112px;
+    text-align: center;
+
+    color: #323232;
+}
+
+.jobs .header .text {
+    width: 294px;
+    height: 151px;
+    margin-left: 98px;
+    margin-top: 77px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.jobs .header .search {
+    position: absolute;
+    width: 459px;
+    height: 49px;
+    margin-left: 588px;
+    margin-top: -238px;
+    border: 0;
+    border-radius: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.jobs .header .search-btn {
+    width: 33px;
+    height: 32px;
+    margin-left: 597px;
+    margin-top: -230px;
+    position: absolute;
+    z-index: 1;
+
+    background: url("../images/Vector2.png") no-repeat;
+}
+
+.jobs .header .statistics {
+    position: absolute;
+    width: 359px;
+    height: 54px;
+    margin-left: 686px;
+    margin-top: -37px;
+    border: 0;
+
+    background: #92F246;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.jobs .main {
+    margin-left: 388px;
+    margin-right: 388px;
+    margin-top: 28px;
+}
+
+.jobs .main .card-title {
+    margin-bottom: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #ED6059;
+}
+
+.jobs .main .card-body {
+    margin-right: 32px;
+}
+
+
+.jobs .pagination {
+    margin-left: 325px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.jobs .pagination a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.jobs .pagination .previous {
+    width: 31px;
+    height: 31px;
+    margin-left: 385px;
+    margin-right: -390px;
+    margin-top: 30px;
+
+    background: #ED6059;
+}
+
+.jobs .pagination .previous .arrow {
+    width: 25px;
+    height: 25px;
+    margin-left: 1px;
+    margin-top: 3px !important;
+
+    background: url("../images/left arrow.png") no-repeat;
+    background-size: contain;
+}
+
+.jobs .pagination .main {
+    width: 430px;
+    height: 31px;
+    left: 715px;
+    margin-top: 30px;
+    margin-right: -1px;
+
+    background: #F5C24D;
+}
+
+.jobs .pagination .main .active {
+    width: 31px;
+    height: 31px;
+    left: 810px;
+    top: 1721px;
+    padding: 1px 9px;
+
+    background: #ED6059;
+    border-radius: 5px;
+}
+
+.jobs .pagination .main .border {
+    width: 2px;
+    height: 29px;
+    margin-left: 2px;
+    margin-top: 1px;
+    margin-bottom: -30px;
+
+    background: #5C5C5C;
+    border-radius: 5px;
+}
+
+.jobs .pagination .main .border2 {
+    width: 2px;
+    height: 29px;
+    margin-left: 425px;
+    margin-top: -30px;
+    top: 2215px;
+
+    background: #5C5C5C;
+    border-radius: 5px;
+
+}
+
+.jobs .pagination .main a {
+    width: 22px;
+    height: 30px;
+    left: 768px;
+    margin-left: 30px;
+
+    font-family: 'AcadEref';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    align-items: center;
+
+    color: #000000;
+}
+
+.jobs .pagination .next {
+    width: 31px;
+    height: 31px;
+    left: 1177px;
+    top: 2214px;
+    margin-top: 30px;
+
+    background: #ED6059;
+}
+
+.jobs .pagination .next .arrow {
+    width: 25px;
+    height: 25px;
+    margin-left: 3px;
+    margin-top: 3px !important;
+
+    background: url("../images/right arrow.png") no-repeat;
+    background-size: contain;
+}
+
+
+/* JOBS STATISTICS */
+
+
+.jobs2 {
+    width: 100%;
+    height: 2225px;
+    left: -570px;
+    margin-top: 19px;
+    margin-bottom: -19px;
+
+    background: url("../images/1668483612_3 1.png") no-repeat;
+}
+
+.jobs2 .header .title {
+    width: 964px;
+    height: 190px;
+    margin-left: 481px;
+    padding-top: 75px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 135.2%;
+    /* or 95px */
+
+
+    color: #000000;
+}
+
+.jobs2 .border {
+    width: 883px;
+    height: 19px;
+    margin-left: 388px;
+    margin-top: 103px;
+
+    background: #F5C24D;
+}
+
+.jobs2 .table {
+    margin-top: 108px;
+    margin-left: 389px;
+    width: 1143px;
+    border: 1px solid #000000;
+}
+
+.jobs2 .table td {
+    border: 1px solid #000000;
+}
+
+.jobs2 .table .thead {
+    height: 36px;
+
+    background: #6F7DAF;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.45);
+    color: #FFFFFF;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.jobs2 .thead th {
+    border: 1px solid #000000;
+}
+
+.jobs2 .table .tbody {
+    width: 1143px;
+    height: 744px;
+    left: 389px;
+    top: 641px;
+
+    background: #D9D9D9;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.45);
+}
+
+.jobs2 .footing {
+    margin-top: 40px;
+    margin-left: 388px;
+}
+
+.jobs2 .footing .title {
+    width: 539px;
+    height: 110px;
+    top: 1492px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 110px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.jobs2 .footing .image {
+    width: 995px;
+    height: 686px;
+    margin-left: 80px;
+    top: 1638px;
+
+    background: url("../images/augh.png");
+}
+
+.jobs2 .footing .colors {
+    width: 400px;
+    margin-left: 785px;
+    margin-top: -630px;
+    display: flex;
+}
+
+.jobs2 .footing .red {
+    width: 65px;
+    height: 105px;
+    left: 1271px;
+    top: 1681px;
+
+    background: #F50D62;
+}
+
+.jobs2 .footing .blue {
+    width: 65px;
+    height: 105px;
+    margin-left: 33px;
+
+    background: #0078FF;
+}
+
+.jobs2 .footing .yellow {
+    width: 65px;
+    height: 105px;
+    margin-left: 33px;
+
+
+    background: #EAB801;
+}
+
+.jobs2 .footing .grey {
+    width: 65px;
+    height: 105px;
+    margin-left: 33px;
+
+
+    background: #53B9D0;
+}
+
+.jobs2 .footing .contact {
+    width: 261px;
+    height: 72px;
+    margin-left: 885px;
+    margin-top: 469px;
+
+    background: #2DF57D;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.jobs2 .footing .contact .image {
+    width: 43px;
+    height: 43px;
+    margin-left: 14px;
+    margin-top: 12px;
+}
+
+.jobs2 .footing .contact span {
+    width: 160px;
+    height: 56px;
+    margin-left: 39px;
+    top: 2279px;
+    text-decoration: none;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #181818;
+}
+
+.jobs2 .footing .contact .span {
+    position: absolute;
+    width: 160px;
+    height: 56px;
+    margin-left: -125px;
+    margin-top: 47px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #181818;
+}
+
+/* ! ! !  ABOUT SECTION  ! ! ! */
+
+.about2 {
+    width: 1920px;
+    height: 1600px;
+    margin-bottom: -19px;
+
+    background: url("../images/ELEMENTLAR.png") no-repeat;
+}
+
+.about2 .header .title {
+    margin-left: 481px;
+    padding-top: 90px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 112px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.about2 .header .image {
+    width: 667px;
+    height: 308px;
+    margin-left: 375px;
+    top: 341px;
+
+    background: url("../images/contacts 1.svg") no-repeat, white;
+    border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    padding-right: 1200px;
+}
+
+.about2 .header .image2 {
+    width: 273px;
+    height: 273px;
+    margin-left: 1198px;
+    margin-top: -333px;
+
+    background: url("../images/log-0 1.svg") no-repeat;
+}
+
+.about2 .main {
+    width: 1142px;
+    height: 905px;
+    margin-left: 390px;
+    margin-top: 11px;
+
+    background: #F5C24D;
+}
+
+.about2 .main .mt59 {
+    padding-top: 59px;
+}
+
+.about2 .main .image {
+    width: 523px;
+    height: 683px;
+    margin-left: 65px;
+
+    background: url("../images/Shape 20 + Layer 8 copy Image.png");
+}
+
+.about2 .main .title {
+    margin-left: 652px;
+    margin-top: -690px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
+
+.about2 .main .text {
+    width: 387px;
+    height: 129px;
+    margin-left: 652px;
+    margin-top: 20px;
+
+    background: url("../images/Toshkent shaxri, Yunusobod tumani, O’zbekiston ko’chasi  +99897 Image.png");
+}
+
+.about2 .main .name {
+    width: 425px;
+    height: 54px;
+    margin-left: 652px;
+    margin-top: 38px;
+    border: 0;
+    outline: none;
+}
+
+.about2 .main input::placeholder {
+    padding-left: 20px;
+    padding-top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #494949;
+
+}
+
+.about2 .main .msg::placeholder {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #494949;
+}
+
+.about2 .main .email {
+    width: 425px;
+    height: 54px;
+    margin-left: 652px;
+    margin-top: 38px;
+    border: 0;
+    outline: none;
+}
+
+.about2 .main .msg {
+    width: 425px;
+    height: 222px;
+    border: none;
+    outline: none;
+    margin-left: 652px;
+    margin-top: 35px;
+}
+
+.about2 .main .submit {
+    width: 196px;
+    height: 55px;
+    margin-left: 881px;
+    margin-top: 73px;
+    border: none;
+    outline: none;
+
+    background: #2DF57D;
+    border-radius: 15px;
+}
+
+
+.about2 .main .submit span {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+
+/* ! ! !  LOG IN SECTION  ! ! ! */
+
+
+.login {
+    width: 100%;
+    height: 1650px;
+    left: -137px;
+    top: 198px;
+    background: url("../images/ELEMENTLAR.png") no-repeat;
+    margin-bottom: -19px;
+}
+
+.login .header {
+    width: 1141px;
+    height: 505px;
+    margin-left: 391px;
+    padding-top: 19px;
+
+    background: url("../images/let-ideas-flow 1.svg");
+}
+
+.login .header .title {
+    width: 1081px;
+    height: 112px;
+    margin-left: 95px;
+    margin-top: 51px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 112px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.login .main {
+    width: 1142px;
+    height: 977px;
+    margin-left: 391px;
+    margin-top: 57px;
+
+    background: #F5C24D;
+}
+
+.login .main .email {
+    width: 407px;
+    height: 75px;
+    margin-left: 192px;
+    margin-top: 50px;
+
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.login .main .email span {
+    font-size: 16px;
+}
+
+
+.login .main .email2 {
+    width: 751px;
+    height: 52px;
+    margin-left: 192px;
+    margin-top: -100px;
+    border: none;
+    outline: none;
+
+    background: #F2F2F2;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+.login .pass {
+    width: 407px;
+    height: 75px;
+    margin-left: 192px;
+    margin-top: 30px;
+
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.login .pass2 {
+    width: 751px;
+    height: 52px;
+    margin-left: 192px;
+    margin-top: -100px;
+    border: none;
+    outline: none;
+
+    background: #F2F2F2;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+.login .main .remember {
+    width: 212px;
+    height: 75px;
+    margin-left: 194px;
+    margin-top: 50px;
+
+    font-family: 'Algerian';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-transform: lowercase;
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.login .remember2 {
+    width: 25px;
+    height: 23px;
+    margin-left: -108px;
+    border: none;
+    outline: none;
+
+    background: #F2D146;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login .forgot {
+    width: 407px;
+    height: 75px;
+    margin-left: 450px;
+    top: 1112px;
+
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 48px;
+    text-transform: lowercase;
+    text-decoration: none;
+
+    color: #000000;
+
+    opacity: 0.5;
+
+}
+
+.login .submit {
+    width: 261px;
+    height: 64px;
+    margin-left: 441px;
+    margin-top: 49px;
+    border: none;
+
+    background: #2DF57D;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+.login .submit span {
+    width: 261px;
+    height: 64px;
+    margin-left: 87px;
+
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+
+.login .soc .title {
+    width: 773px;
+    height: 75px;
+    margin-left: 185px;
+    margin-top: 134px;
+
+    font-family: 'Algerian';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.login .border {
+    width: 621px;
+    height: 0px;
+    margin-left: 259px;
+    margin-top: -20px;
+
+    border: 3px solid #FFFFFF;
+}
+
+.login .google {
+    margin-top: 50px;
+    margin-left: 392px;
+    width: 390px;
+    height: 300px;
+    background: url("../images/Group 405.png") no-repeat;
+}
+
+/* ! ! !  REGISTER SECTION  ! ! ! */
+
+.register .main {
+    width: 1142px;
+    height: 830px;
+
+
+    background: #F5C24D;
+}
+
+.register .title {
+    margin-left: 63px;
+    padding-top: 63px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.register .image {
+    width: 229px;
+    height: 250px;
+    margin-left: 63px;
+    margin-top: 58px;
+
+    background: #FAFAFA;
+}
+
+.register .image span {
+    width: 70px;
+    height: 64px;
+    padding-left: 80px;
+    padding-top: 125px;
+
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #D5D5D5;
+}
+
+.register .img {
+    width: 141px;
+    height: 27px;
+    margin-left: 60px;
+    margin-top: 5px;
+
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+
+    color: #E6E6E6;
+}
+
+.register .elements {
+    margin-top: -265px;
+    position: absolute;
+}
+
+.register .name {
+    width: 653px;
+    height: 63px;
+    margin-left: 400px;
+    margin-top: -483px;
+    border: none;
+    outline: none;
+
+    background: #FAFAFA;
+}
+
+.register .lastname {
+    width: 653px;
+    height: 63px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+
+    background: #FAFAFA;
+}
+
+.register .number {
+    width: 653px;
+    height: 63px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+
+    background: #FAFAFA;
+}
+
+.register .mail {
+    width: 653px;
+    height: 63px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+
+    background: #FAFAFA;
+}
+
+.register .date {
+    width: 457px;
+    height: 63px;
+    margin-left: 63px;
+    margin-top: 80px;
+    border: none;
+    outline: none;
+
+    background: #FAFAFA;
+}
+
+.register .pass {
+    width: 466px;
+    height: 63px;
+    margin-left: 63px;
+    top: 1363px;
+    border: none;
+    outline: none;
+
+    background: #FAFAFA;
+}
+
+.register .address {
+    width: 987px;
+    height: 63px;
+    margin-left: 64px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+
+    background: #FAFAFA;
+}
+
+.register .border {
+    width: 525px;
+    height: 1px;
+    margin-left: 64px;
+    margin-top: 37px;
+
+    border: 3px solid #FFFFFF;
+}
+
+.register .check {
+    width: 33px;
+    height: 31px;
+    margin-left: 64px;
+    margin-top: 29px;
+    border: none;
+    outline: none;
+
+    background: #FEF5D0;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.register .rember {
+    position: absolute;
+    width: 725px;
+    height: 83px;
+    margin-left: -62px;
+    margin-top: -100px;
+
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    font-variant: small-caps;
+
+    color: #FFFFFF;
+
+}
+
+
+.register .subemit {
+    position: absolute;
+    width: 261px;
+    height: 64px;
+    margin-left: 692px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+
+    background: #2DF57D;
+    mix-blend-mode: normal;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
+/* ! ! !  RULES  ! ! ! */
+
+.rules {
+    width: 100%;
+    height: 1500px;
+    left: -279px;
+    top: 281px;
+    margin-bottom: -19px;
+
+    background: url("../images/ELEMENTLAR.png") no-repeat;
+}
+
+
+.rules .header {
+    width: 1141px;
+    height: 429px;
+    margin-left: 391px;
+    margin-top: 19px;
+
+    background: #FFDE59;
+}
+
+.rules .header .title {
+    width: 347px;
+    height: 112px;
+    margin-left: 90px;
+    padding-top: 71px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 112px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.rules .header .img {
+    width: 457px;
+    height: 429px;
+    margin-left: 586px;
+    margin-top: -112px;
+
+    background: url('../images/1664550692 (1) 1.svg');
+}
+
+.rules .main {
+    width: 1141px;
+    height: 1186px;
+    margin-left: 391px;
+
+    border: 5px solid #F5C24D;
+}
+
+.rules .main .title {
+    width: 1049px;
+    height: 56px;
+    margin-left: 94px;
+    margin-top: 28px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 56px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.rules .main .border {
+    width: 686px;
+    height: 3px;
+    margin-left: 96px;
+    top: 676px;
+    border: none;
+    outline: none;
+
+    background: #2DF57D !important;
+}
+
+.rules .main .text {
+    width: 948px;
+    height: 702px;
+    margin-left: 95px;
+    margin-top: 24px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.rules .main .text a {
+    color: #000000 !important;
+}
+
+.rules .footer .text1 {
+    width: 1041px;
+    height: 56px;
+    margin-left: 94px;
+    margin-top: -48px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 56px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.rules .footer .border1 {
+    width: 751px;
+    height: 3px;
+    margin-left: 96px;
+    margin-top: -10px;
+
+    background: #2DF57D;
+}
+
+.rules .footer .border2 {
+    width: 555px;
+    height: 3px;
+    margin-left: 96px;
+    margin-top: -10px;
+
+    background: #2DF57D;
+}
+
+.rules .footer .border3 {
+    width: 1040px;
+    height: 3px;
+    margin-left: 96px;
+    margin-top: -10px;
+
+    background: #2DF57D;
+}
+
+.rules .footer .text2 {
+    width: 1042px;
+    height: 56px;
+    margin-left: 94px;
+    margin-top: 23px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 56px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+}
+
+.rules .text3 {
+    width: 1044px;
+    height: 56px;
+    margin-left: 94px;
+    margin-top: 23px;
+
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 56px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
