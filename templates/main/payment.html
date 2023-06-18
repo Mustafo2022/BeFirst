@@ -1,0 +1,32 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+
+    {% load static %}
+    <div class="payment">
+        <div class="header">
+            <div class="title">ОПЛАТА</div>
+        </div>
+        <div class="main">
+            <div class="title">Оформление оплаты</div>
+            <input type="text" name="" id="" class="name" placeholder="Ваше имя">
+            <input type="text" name="" id="" class="number" placeholder="Ваше номер телефона ">
+            <input type="text" name="" id="" class="category" placeholder="ОПЛАТА ПО КАТЕГОРИЯМИ">
+            <input type="text" name="" id="" class="card" placeholder="НОМЕР КАРТЫ">
+            <div class="bor"></div>
+            <input type="text" name="" id="" class="sum" placeholder="СУММА">
+            <br>
+            <button class="submit">ОПЛАТИТ</button>
+            <div class="faster">
+                <div class="text">быстрый способ оплаты</div>
+                <div class="border"></div>
+                <div class="cards">
+                    <div class="apelsin"></div>
+                    <div class="click"></div>
+                    <div class="payme"></div>
+                    <div class="anor"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -5,16 +5,56 @@
     {% load static %}
 
     <div class="realgister">
-        <div class="header">
-            <div class="title">РЕГИСТРАЦИЯ</div>
-            <div class="img"></div>
-        </div>
-        <div class="main">
-            <input type="text" name="" id="" class="name" placeholder="имя">
-            <input type="text" name="" id="" class="lastname" placeholder="ФАМИЛИЯ">
-            <input type="text" name="" id="" class="edu" placeholder="ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ">
-            <input type="text" name="" id="" class="addr" placeholder="РЕГИОН (область, республика, ...)">
+        <form action="">
 
-        </div>
+            <div class="mt19"></div>
+            <div class="header">
+                <div class="title">РЕГИСТРАЦИЯ</div>
+                <div class="img"></div>
+            </div>
+            <div class="main">
+                <input type="text" name="" id="" class="name" placeholder="имя">
+                <input type="text" name="" id="" class="lastname" placeholder="ФАМИЛИЯ">
+                <div class="soc">
+                    <img src="{% static 'main/images/google_plus.png' %}" width="64" alt="" class="google">
+                    <img src="{% static 'main/images/FACEBOOK.png' %}" width="64" alt="" class="facebook">
+                    <img src="{% static 'main/images/instagram.png' %}" width="64" alt="" class="instagram">
+                    <img src="{% static 'main/images/telegram.svg' %}" width="64" alt="" class="telegram">
+                    <div class="border"></div>
+                    <div class="text">Регистрация с помощью социальных сетей</div>
+                </div>
+                <input type="text" name="" id="edu" class="edu" placeholder="ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ">
+                <label for="edu" class="educ">краткое наименование образовательного учреждения</label>
+                <input type="text" name="" id="addr" class="addr" placeholder="РЕГИОН (область, республика, ...)">
+                <label for="addr" class="addre">выберите значения</label>
+                <div class="status"><span>ВЫБЕРИТЕ СТАТУС, ВЫ СОГЛАШАЕТЕСЬ С УСЛОВИЯМИ БОНУСНОЙ ПРОГРАММЫ</span></div>
+                <div class="check">
+
+                    <input type="radio" name="1" id="1" class="1">
+                    <label for="1" class="a">НЕТ</label><br>
+                    <input type="radio" name="1" id="2" class="2">
+                    <label for="2" class="b">УЧАСТНИК – работы на конкурсы отправляются только от имени одного Автора,
+                        но
+                        могут быть указаны разные Руководители работ</label><br>
+                    <input type="radio" name="1" id="3" class="3">
+                    <label for="3" class="c">РУКОВОДИТЕЛЬ РАБОТ – работы на конкурсы могут отправляться от разных
+                        Авторов,
+                        но от одного Руководителя</label><br>
+                    <input type="radio" name="1" id="4" class="4">
+                    <label for="4" class="d">ОРГАНИЗАТОР ОТ ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ – работы на конкурсы могут
+                        отправляться от разных Авторов и разных Руководителей, но от одной образовательной
+                        организации</label>
+                </div>
+                <div class="agreement"><span>Согласие</span></div>
+                <input type="checkbox" name="11" id="11" class="check1">
+                <label for="11" class="aa">Даю согласие образовательному порталу "НИКА" на обработку моих персональных
+                    данных * <br>
+                    Нажимая кнопку «РЕГИСТРАЦИЯ», я принимаю условия Пользовательского соглашения и даю своё согласие
+                    Образовательному порталу «BEFIRST» (сайт https://оценика.уз) на обработку моих персональных данных,
+                    в
+                    соответствии с ...</label>
+            </div>
+            <button class="submit" type="submit"><span>ГОТОВО</span></button>
+        </form>
     </div>
 {% endblock %}

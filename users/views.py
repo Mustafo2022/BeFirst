@@ -9,6 +9,9 @@ def RegisterView(request):
     return render(request, 'main/register.html')
 
 
-
 def RealgisterView(request):
-    return render(request, 'main/register.html')
+    return render(request, 'main/realgister.html')
+
+
+def PaymentView(request):
+    return render(request, 'main/payment.html')

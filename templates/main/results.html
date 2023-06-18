@@ -1,0 +1,50 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+
+    {% load static %}
+    <div class="results1">
+        <div class="header">
+            <div class="title">О РезультатАХ</div>
+            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula sagittis libero
+                quis sodales. Sed gravida augue eu odio ultrices, et cursus turpis maximus. Nam aliquam efficitur
+                posuere. Nulla egestas, massa ac pretium luctus, mi lacus pulvinar turpis, at laoreet risus elit at
+                sapien. Curabitur sagittis, neque id pulvinar pellentesque, magna libero consequat sapien, sed vehicula
+                erat arcu vel velit. In cursus, dui ultricies tristique bibendum, nunc orci molestie lacus, a ultrices
+                justo mauris eu
+            </div>
+            <div class="img"></div>
+        </div>
+        <div class="images">
+            <div class="first"><img src="{% static 'main/images/image 18.png' %}" class="image" alt="">
+                <div class="title">980</div>
+                <div class="text">участники</div>
+            </div>
+            <div class="second"><img src="{% static 'main/images/globe 1.png' %}" class="image" alt="">
+                <div class="title">30</div>
+                <div class="text">победители</div>
+            </div>
+            <div class="third"><img src="{% static 'main/images/image 21.png' %}" class="image" alt="">
+                <div class="title">990</div>
+                <div class="text">награды</div>
+            </div>
+            <div class="fourth"><img src="{% static 'main/images/sertificat 1.png' %}" class="image" alt="">
+                <div class="title">2023</div>
+                <div class="text">сертификаты</div>
+            </div>
+            <div class="fifth"><img src="{% static 'main/images/272139 1.png' %}" class="image" alt="">
+                <div class="title">350</div>
+                <div class="text">подарки</div>
+            </div>
+            <div class="sixth"><img src="{% static 'main/images/comp 1.png' %}" class="image" alt="">
+                <div class="title">5000</div>
+                <div class="text">творческие
+                    работы
+                </div>
+            </div>
+        </div>
+        <div class="border"></div>
+        <div class="tlite">СТАТИСТИКА</div>
+        <img src="{% static 'main/images/Group 396.png' %}" alt="" class="last">
+    </div>
+{% endblock %}

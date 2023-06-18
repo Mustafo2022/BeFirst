@@ -13,11 +13,12 @@
 }
 
 .navbar .top {
-    margin-top: 10px;
+    margin-top: 5px;
+    padding-top: 3px;
     left: 0;
     background: #F5F5F5;
     width: 100%;
-    height: 38px;
+    height: 45px;
 }
 
 .navbar .top .language {
@@ -277,6 +278,15 @@
     padding-left: 8px;
     padding-right: 60px;
     top: 105px;
+
+    background: #EFEBE2;
+    border-radius: 21px;
+}
+
+.navbar .main .activey {
+    width: 200px;
+    height: 1px;
+    padding-left: 3px;
 
     background: #EFEBE2;
     border-radius: 21px;
